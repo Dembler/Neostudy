@@ -1,2 +1,2 @@
-![image](https://github.com/user-attachments/assets/9cfe0fb9-d52b-4cd9-8b55-0451625e834d)
 # Neostudy
+![Без имени](https://github.com/user-attachments/assets/87e45c14-ed15-48f4-bb66-db5438183434)
