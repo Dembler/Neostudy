@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: com.example.VacantionPay.VacantionPayCalculatorApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 4.603 s <<< FAILURE! -- in com.example.VacantionPay.VacantionPayCalculatorApplicationTests
+com.example.VacantionPay.VacantionPayCalculatorApplicationTests.calculateWithoutDates -- Time elapsed: 0.010 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.VacantionPay.dto.VacationPayDTO.getTotalVacationPay()" is null
+	at com.example.VacantionPay.VacantionPayCalculatorApplicationTests.calculateWithoutDates(VacantionPayApplicationTests.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.example.VacantionPay.VacantionPayCalculatorApplicationTests.calculateWithDatesWithOnlyHolidaysAndWeekends -- Time elapsed: 0.011 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at com.example.VacantionPay.VacantionPayCalculatorApplicationTests.calculateWithDatesWithOnlyHolidaysAndWeekends(VacantionPayApplicationTests.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.example.VacantionPay.VacantionPayCalculatorApplicationTests.calculateWithDatesWithoutHolidaysAndWeekends -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3600> but was: <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at com.example.VacantionPay.VacantionPayCalculatorApplicationTests.calculateWithDatesWithoutHolidaysAndWeekends(VacantionPayApplicationTests.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.example.VacantionPay.VacantionPayCalculatorApplicationTests.calculateWithDatesWithHolidaysAndWeekends -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3600> but was: <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at com.example.VacantionPay.VacantionPayCalculatorApplicationTests.calculateWithDatesWithHolidaysAndWeekends(VacantionPayApplicationTests.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

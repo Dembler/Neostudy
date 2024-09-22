@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор отпускных</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Цвет фона */
+            color: #333; /* Цвет текста */
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #4a90e2; /* Цвет заголовка */
+        }
+        .author {
+            text-align: center;
+            color: #e94e77; /* Новый цвет для строки с именем */
+            font-size: 1.2em; /* Размер шрифта */
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff; /* Цвет фона контейнера */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .api-info {
+            margin: 20px 0;
+            padding: 10px;
+            border-left: 4px solid #4a90e2; /* Цвет левой границы */
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="author">Работу выполнил: Добросоцких Николай</h1>
+        <h1>Калькулятор отпускных</h1>
+        <div class="api-info">
+            <strong>Микросервис:</strong> SpringBoot + Java 11<br>
+            <strong>API:</strong> GET "/calculate"
+        </div>
+        <p>Минимальные требования: Приложение принимает вашу среднюю зарплату за 12 месяцев и количество дней отпуска - отвечает суммой отпускных, которые придут сотруднику.</p>
+        <p>Доп. задание: При запросе также можно указать точные дни ухода в отпуск, тогда будет проводиться расчёт отпускных с учётом праздников и выходных.</p>
+    </div>
+    <div class="footer">
+        © 2024 Калькулятор отпускных
+    </div>
+</body>
+</html>
+
+
+
